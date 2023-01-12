@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-gray);
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.homeLink {
+    flex: 1;
+    margin:auto;
+    padding: 1.75rem;
+}
+
+.btbContainer {
+    flex: 1;
+    display: flex;
+}
+
+.link {    
+    padding: 1.75rem 0;
+    flex: 1;
+    text-align: center;
+}
+
+.homeLink:hover, .link:hover{
+    background-color: var(--primary);
+}

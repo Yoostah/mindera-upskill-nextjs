@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+    padding: 24px 0;
+    height: calc(100vh - 3.5rem);
+    background: var(--light-green);
+}
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 24px auto;
+    text-transform: uppercase;
+    color: var(--dark-gray);
+}
+.description {
+    margin: 12px auto;
+    font-size: 1.2rem;
+}
